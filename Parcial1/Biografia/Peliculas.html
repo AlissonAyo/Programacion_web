@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    <link rel="stylesheet" href="./public/bootstrap-5.3.5-dist/css/bootstrap.min.css">
+
+    <style>
+        .fondo-morado-suave {
+            background-color: #7E57C2;
+            color: white;
+        }
+
+        .fondo-lila {
+            background-color: #B39DDB;
+            color: black;
+        }
+
+        .fondo-lavanda {
+            background-color: #D1C4E9;
+            color: black;
+        }
+
+        .border-purpura {
+            border: 3px solid #4527A0;
+        }
+
+        .border-berenjena {
+            border: 3px solid #311B92;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="fondo-morado-suave text-center" style="font-family: 'Times New Roman', Times, serif;">
+        <h1>Peliculas favoritas</h1>
+
+
+        <div class="alert alert-warning alert-dismissible fade show d-flex align-items-center" role="alert">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi flex-shrink-0 me-2" viewBox="0 0 16 16" width="24" height="24" role="img" aria-label="Warning:">
+              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <div>
+              Algunos tráilers pueden no estar disponibles en español latino.
+            </div>
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          
+    </header>
+
+    
+
+    <div class="container py-4" style="font-family: 'Times New Roman', Times, serif;">
+        <div class="row">
+            <div class="col-md-6 text-center mb-4">
+                <div class="p-3 rounded fondo-lavanda" style="box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <h4 class="mb-4">Películas animadas <span class="badge bg-secondary">3 tráilers</span></h4>
+                    <div class="border-berenjena p-3 rounded" style="background-color: #fdf6ff;">
+                        <figure class="mb-4">
+                            <figcaption class="mb-2">
+                                <h5>La Bella y la Bestia</h5>
+                            </figcaption>
+                            <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                                <source src="./public/video/La Bella y la Bestia.mp4" type="video/mp4">
+                            </video>
+                        </figure>
+                        <figure class="mb-4">
+                            <figcaption class="mb-2">
+                                <h5>Aladdín</h5>
+                            </figcaption>
+                            <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                                <source src="./public/video/Aladdín 1992.mp4" type="video/mp4">
+                            </video>
+                        </figure>
+                        <figure>
+                            <figcaption class="mb-2">
+                                <h5>La Sirenita</h5>
+                            </figcaption>
+                            <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                                <source src="./public/video/La Sirenita 1989.mp4" type="video/mp4">
+                            </video>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-center mb-4">
+                <div class="p-3 rounded fondo-lila" style="box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <h4 class="mb-4">Películas de ficción <span class="badge bg-secondary">3 tráilers</span></h4>
+                    <div class="border-berenjena p-3 rounded" style="background-color: #fdf6ff;">
+                        <figure class="mb-4">
+                            <figcaption class="mb-2">
+                                <h5>Harry Potter y la piedra filosofal</h5>
+                            </figcaption>
+                            <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                                <source
+                                    src="./public/video/Harry Potter y la piedra filosofal (2001) Trailer español HD Remasterizado.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </figure>
+                        <figure class="mb-4">
+                            <figcaption class="mb-2">
+                                <h5>Harry Potter y el prisionero de Azkaban</h5>
+                            </figcaption>
+                            <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                                <source
+                                    src="./public/video/Harry Potter y el prisionero de Azkaban (2004) _ Trailer latino.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </figure>
+                        <figure>
+                            <figcaption class="mb-2">
+                                <h5>Harry Potter y la orden del Fénix</h5>
+                            </figcaption>
+                            <video controls style="width: 100%; max-width: 500px; border-radius: 10px;">
+                                <source
+                                    src="./public/video/Harry Potter y la orden del Fénix (2007) _ Trailer latino.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./public/bootstrap-5.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
